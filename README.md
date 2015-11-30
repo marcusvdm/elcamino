@@ -1,38 +1,36 @@
-# holy-grail.css web template
+# FastShell
+[![Build Status](https://travis-ci.org/HosseinKarami/fastshell.png?branch=master)](https://travis-ci.org/HosseinKarami/fastshell)
 
-This is the holy-grail.css web template; the wrapper for the
-[holy-grail.css](https://github.com/herzinger/holy-grail.css) framework.
+inspired by [FireShell](http://getfireshell.com)
+Fiercely quick front-end boilerplate and workflows.
 
-This template is a barebones and unopinionated directory structure which simply
-allows you to include the holy-grail.css core library in your builds as an updatable
-Git submodule.
+The opinionated FastShell framework. Built for the modern developer. For teams and the individual, encouraging a better workflow. JavaScript task running, build processes, autominification and file concatenation, wrapped with an enhanced HTML5 boilerplated framework.
 
-To quickly install holy-grail.css, run the following commands:
-
-```bash
-	$ git clone --recursive git@github.com:herzinger/holy-grail.css-web-template.git your-project
-	$ cd your-project
-	$ ./go
-```
-
-What we are doing here is cloning an instance of the holy-grail.css-web-template and
-its submodules (that’s what the `--recursive` does) into a directory which you
-specify. Next we `cd` into that directory and run [our `go` script](https://github.com/herzinger/holy-grail.css-web-template/blob/master/go).
-This script (courtesy of [Nick Payne](http://twitter.com/makeusabrew)) simply
-removes the web template’s Git instance and replaces it with a fresh one for
-your project, whilst also maintaining your holy-grail.css submodule.
-
-For a more detailed overview on what holy-grail.css is, and how to install and use
-it, please refer to the documentation in the README in
-[the main holy-grail.css repository](https://github.com/herzinger/holy-grail.css).
+* Source: [github.com/HosseinKarami/fastshell](http://github.com/HosseinKarami/fastshell)
+* Documentation: [DOCS.md](https://github.com/HosseinKarami/fastshell/blob/master/DOCS.md)
+* HomePage: [Fastshell](https://HosseinKarami.github.io/fastshell)
 
 
-## About this and inuit.css
+## License
 
-Holy-grail.css started as a fork from [inuit.css](http://inuitcss.com/). While it's
-still mainly identical right now, I decided to start a new project, with a new name,
-because I want to rewrite it completely. The differences at the end of this process should be
-a lot, including some different approaches and filosofies.
+#### The MIT License (MIT)
 
-Ditto that, this web template is completely the same and I don't think it's going to chance anytime soon.
-The only difference is, this one points to my own version of the framework, and not the original one.
+Copyright (c) FastShell
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
